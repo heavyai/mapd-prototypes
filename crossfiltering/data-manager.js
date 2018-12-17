@@ -49,14 +49,11 @@ const DataManager = function() {
       dataConnector = await connect();
       }
       const query = buildQuery(queryInfo);
-      const promise = new Promise((resolve, reject) => {
-        dataConnector.queryAsync(query).then(data => {
+      return dataConnector.queryAsync(query).then(data => {
           dataCache = data;
           isFetching = false
-          resolve(data);
+          return data;
         });
-      });
-      return promise;
     }
   }
 
