@@ -1,0 +1,2 @@
+# Minimal crossfiltering example
+A minimal example of selecting a range on a chart to filter another one, using mapd-core via mapd-connector, but without using mapd-charting or mapd-crossfilter. It doesn't have any dependency, not using any framework, so it's easy to adapt to other tech stack or libraries, like integrating with React or swapping [MapD3](https://github.com/omnisci/mapd3) for another chart library.
