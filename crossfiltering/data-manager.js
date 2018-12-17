@@ -49,11 +49,10 @@ const DataManager = function() {
       dataConnector = await connect();
       }
       const query = buildQuery(queryInfo);
-      return dataConnector.queryAsync(query).then(data => {
-          dataCache = data;
-          isFetching = false
-          return data;
-        });
+      const data = await dataConnector.queryAsync(query)
+      dataCache = data;
+      isFetching = false
+      return data
     }
   }
 
