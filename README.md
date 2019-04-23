@@ -23,3 +23,9 @@ Here are some other experiments and standalone examples
 * Vega with mapd-core https://observablehq.com/@biovisualize/using-vega-with-omnisci-core
 * Immerse running in an iframe https://observablehq.com/@biovisualize/immerse-in-an-iframe
 * Minisci https://github.com/omnisci/minisci
+* Sunburst https://github.com/omnisci/mapd-sunburst-chart
+* Lidar visualization https://github.com/omnisci/lidar-visualization
+* Semiotic integration https://github.com/omnisci/mapd-semiotic
+* Another Vega example https://github.com/omnisci/vegaChart
+* Raster maps https://www.omnisci.com/docs/latest/6_vegaTry.html
+* Vega transform OmniSci core https://github.com/vega/vega-transform-omnisci-core
