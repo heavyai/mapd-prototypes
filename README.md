@@ -29,3 +29,5 @@ Here are some other experiments and standalone examples
 * Another Vega example https://github.com/omnisci/vegaChart
 * Raster maps https://www.omnisci.com/docs/latest/6_vegaTry.html
 * Vega transform OmniSci core https://github.com/vega/vega-transform-omnisci-core
+* Get started with custom apps https://github.com/omnisci/Charting-Sample
+* MapD3 + mapd-crossfilter example https://github.com/omnisci/mapd-charting/blob/b833a9157c7ff6c80ee435603044236b7f15cfad/example/exampleMapD3Crossfilter.html
