@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+}
+.app-container {
+  height: 100%;
+}
+.header {
+  display: flex;
+  height: 32px;
+  border-bottom: 1px solid black;
+  background-image: url("omnisci.svg");
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: 16px center;
+  background-color: #121212;
+}
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+}
+.chart-panel {
+  display: flex;
+  flex: 1;
+  border: 1px solid #444;
+  margin: 4px;
+  background: #252525;
+}
+#graph {
+  display: flex;
+  width: 600px;
+  height: 700px;
+}
+#chart1 {
+  padding: 32px;
+}
